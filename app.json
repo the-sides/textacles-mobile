@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "Textacles",
     "slug": "textacles",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
-      "ios",
       "android",
       "web"
     ],
@@ -23,8 +22,9 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
+    "android": {
+      "package": "com.foolhardies.textaclesApp",
+      "versionCode": 1
     },
     "entryPoint": "node_modules/expo/AppEntry.js"
   },
